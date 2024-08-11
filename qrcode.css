@@ -1,0 +1,114 @@
+/* Apply styles to the body */
+body { 
+    font-family: "Ubuntu", sans-serif; 
+    background-image: linear-gradient(rgb(87, 173, 230), white);
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+} 
+
+/* Style the container */
+.container { 
+    background-color: #fff; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    padding: 20px; 
+    text-align: center; 
+    max-width: 500px; /* Ensure the container is not too wide */
+    width: 100%; /* Full width up to max-width */
+} 
+
+/* Style the header */
+.header { 
+    text-align: center; 
+} 
+
+/* Style the h1 element */
+h1 { 
+    font-size: 28px; 
+    margin-bottom: 10px; 
+    color: #333; 
+} 
+
+/* Style the hr element */
+hr { 
+    border: 1px solid #ddd; 
+    margin: 20px 0; 
+} 
+
+/* Style the input field */
+input[type="text"] { 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    outline: none; 
+} 
+
+/* Style the QR code section */
+.qr-section { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 20px 0; 
+} 
+
+/* Style the image above the QR code */
+.above-image { 
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; /* Spacing between the image and the input field */
+    border-radius: 5px; /* Optional: for rounded corners */
+} 
+
+/* Style the QR code div */
+.qrcode { 
+    margin: 20px 0; 
+    display: flex;
+    justify-content: center; /* Center the QR code within the div */
+} 
+
+/* Style the button */
+button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    outline: none; 
+} 
+
+/* Hover effect for the button */
+button:hover { 
+    background-color: #0056b3; 
+}
+
+#bottom-bar {
+    width: 100%;
+    padding: 10px 0;
+    background-color: hsl(216, 96%, 18%);
+    border-top: 2px solid #009de4;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  }
+  
+  #bottom-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: hwb(199 34% 8%);
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+  }
+  
+  #bottom-bar a:hover {
+    background-color:hsl(216, 96%, 18%);
+  }
